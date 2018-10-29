@@ -32,8 +32,8 @@ def draw_circle(event,x,y,flags,param):#创建一个回调函数
 #和opencv主窗口绑定
 #connect with the main opencv windows            
 img = np.zeros((512,512,3), np.uint8)
-cv.namedWindow('image')
-cv.setMouseCallback('image',draw_circle)
+cv.namedWindow('image2')
+cv.setMouseCallback('image2',draw_circle)
 while(1):
     cv.imshow('image',img)
     k=cv.waitKey(1) & 0xFF    
