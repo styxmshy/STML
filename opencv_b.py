@@ -2,7 +2,7 @@
 """
 Created on Sun Oct 28 17:29:05 2018
 用鼠标画图，m键切换，if True, draw rectangle. false,draw circle
-@author: ccc solar 
+@author: ccc solar okokok
 """
 
 import numpy as np
